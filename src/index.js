@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Header from './App';
+import Image from './App';
+import Footer from './App';
+
 import * as serviceWorker from './serviceWorker';
 
 //Importation for Redux
@@ -23,6 +27,12 @@ ReactDOM.render(
   <Provider store={myStore}>
 
     <App/>
+
+    <Header/>
+    <Image/>
+    <Footer/>
+
+
 
   </Provider>
 
