@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Header from './App';
-import Image from './App';
-import Footer from './App';
 
 import * as serviceWorker from './serviceWorker';
 
@@ -12,7 +9,6 @@ import * as serviceWorker from './serviceWorker';
 import pouceReducer from './reducers/likeReducer'
 import coeurReducer from './reducers/coeurReducer'
 import alertReducer from './reducers/alertReducer'
-
 
 // import deuxiemeReducer from './my2eReducer'
 import {Provider} from 'react-redux';
@@ -27,12 +23,6 @@ ReactDOM.render(
   <Provider store={myStore}>
 
     <App/>
-
-    <Header/>
-    <Image/>
-    <Footer/>
-
-
 
   </Provider>
 
